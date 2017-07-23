@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D84C12F1F2528860029D6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84C12E1F2528860029D6CB /* AppDelegate.swift */; };
+		5D84C1311F2528860029D6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84C1301F2528860029D6CB /* ViewController.swift */; };
+		5D84C1341F2528860029D6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84C1321F2528860029D6CB /* Main.storyboard */; };
+		5D84C1361F2528860029D6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D84C1351F2528860029D6CB /* Assets.xcassets */; };
+		5D84C1391F2528860029D6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84C1371F2528860029D6CB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D84C12B1F2528860029D6CB /* IronInspiredFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronInspiredFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D84C12E1F2528860029D6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D84C1301F2528860029D6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D84C1331F2528860029D6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D84C1351F2528860029D6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D84C1381F2528860029D6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D84C13A1F2528860029D6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D84C1281F2528860029D6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D84C1221F2528860029D6CB = {
+			isa = PBXGroup;
+			children = (
+				5D84C12D1F2528860029D6CB /* IronInspiredFitness */,
+				5D84C12C1F2528860029D6CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D84C12C1F2528860029D6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D84C12B1F2528860029D6CB /* IronInspiredFitness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D84C12D1F2528860029D6CB /* IronInspiredFitness */ = {
+			isa = PBXGroup;
+			children = (
+				5D84C12E1F2528860029D6CB /* AppDelegate.swift */,
+				5D84C1301F2528860029D6CB /* ViewController.swift */,
+				5D84C1321F2528860029D6CB /* Main.storyboard */,
+				5D84C1351F2528860029D6CB /* Assets.xcassets */,
+				5D84C1371F2528860029D6CB /* LaunchScreen.storyboard */,
+				5D84C13A1F2528860029D6CB /* Info.plist */,
+			);
+			path = IronInspiredFitness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D84C12A1F2528860029D6CB /* IronInspiredFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D84C13D1F2528860029D6CB /* Build configuration list for PBXNativeTarget "IronInspiredFitness" */;
+			buildPhases = (
+				5D84C1271F2528860029D6CB /* Sources */,
+				5D84C1281F2528860029D6CB /* Frameworks */,
+				5D84C1291F2528860029D6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronInspiredFitness;
+			productName = IronInspiredFitness;
+			productReference = 5D84C12B1F2528860029D6CB /* IronInspiredFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D84C1231F2528860029D6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Joel Rorseth";
+				TargetAttributes = {
+					5D84C12A1F2528860029D6CB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6QJBCPUR9M;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D84C1261F2528860029D6CB /* Build configuration list for PBXProject "IronInspiredFitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D84C1221F2528860029D6CB;
+			productRefGroup = 5D84C12C1F2528860029D6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D84C12A1F2528860029D6CB /* IronInspiredFitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D84C1291F2528860029D6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D84C1391F2528860029D6CB /* LaunchScreen.storyboard in Resources */,
+				5D84C1361F2528860029D6CB /* Assets.xcassets in Resources */,
+				5D84C1341F2528860029D6CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D84C1271F2528860029D6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D84C1311F2528860029D6CB /* ViewController.swift in Sources */,
+				5D84C12F1F2528860029D6CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D84C1321F2528860029D6CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D84C1331F2528860029D6CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D84C1371F2528860029D6CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D84C1381F2528860029D6CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D84C13B1F2528860029D6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D84C13C1F2528860029D6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D84C13E1F2528860029D6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QJBCPUR9M;
+				INFOPLIST_FILE = IronInspiredFitness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelRorseth.IronInspiredFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D84C13F1F2528860029D6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QJBCPUR9M;
+				INFOPLIST_FILE = IronInspiredFitness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoelRorseth.IronInspiredFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D84C1261F2528860029D6CB /* Build configuration list for PBXProject "IronInspiredFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D84C13B1F2528860029D6CB /* Debug */,
+				5D84C13C1F2528860029D6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D84C13D1F2528860029D6CB /* Build configuration list for PBXNativeTarget "IronInspiredFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D84C13E1F2528860029D6CB /* Debug */,
+				5D84C13F1F2528860029D6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D84C1231F2528860029D6CB /* Project object */;
+}
